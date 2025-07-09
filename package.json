@@ -2,10 +2,7 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dhirajpalkar.github.io/smarttask/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
@@ -72,3 +69,5 @@
     "typescript": "^5"
   }
 }
+
+
