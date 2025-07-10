@@ -1,17 +1,16 @@
 {
+  
+  "homepage": "https://dhirajpalkar.github.io/smarttask/",
   "name": "my-v0-project",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://dhirajpalkar.github.io/smarttask/",
-
+  "private": false,
 "scripts": {
-  "build": "next build",
   "dev": "next dev",
-  "lint": "next lint",
+  "build": "next build && next export",
   "start": "next start",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
+  "deploy": "gh-pages -d out"
+},
 
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
